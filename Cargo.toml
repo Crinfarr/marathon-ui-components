@@ -1,0 +1,12 @@
+[package]
+name = "marathon-ui-components"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = []
+log = ["dep:log"]
+
+[dependencies]
+egui = { version = "0.37.0", default-features = false }
+log = {version = "0.4.35", optional = true}
